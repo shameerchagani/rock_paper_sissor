@@ -28,8 +28,8 @@ section.hero{
 .computer article,
 .player{
     margin: 15px 15px;
-    max-height: 27vh;
-    min-height: 27vh;
+    max-height: 30vh;
+    min-height: 30vh;
     display: flex;
     justify-content: space-around;
     align-items: center;    
