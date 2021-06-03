@@ -63,11 +63,17 @@ h1{
 
 #finalRes{
     background: chocolate;
-    color: darkkhaki
+    color: darkkhaki;
     font-family: sans-serif;
     line-height: 1.5px;
 }
-
+footer{
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-top: 1px solid gray;
+    padding: 5px 0;
+}
 @media screen and (max-width:600px) {
     .computer article{
         margin: 20px 20px;
