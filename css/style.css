@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: coral;
+    color: white;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.scores{
+    margin: 30px 20px;
+    min-height: 10vh; 
+    overflow: hidden;
+}
+
+section.hero{
+    width: 80%;
+    margin: auto;
+
+}
+.computer article,
+.player{
+    margin: 20px 20px;
+    max-height: 30vh;
+    min-height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+img#compImg{
+    width: 15%;
+    height: 15%;
+}
+
+.computer > article{
+    transition: all 0.5s ease-in-out;
+}
+.player img{
+    width: 15vh;
+    cursor: pointer;
+}
+
+section.score{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+
+#finalRes{
+    background: chocolate;
+    color: darkkhaki
+    font-family: sans-serif;
+    line-height: 1.5px;
+}
+
+@media screen and (max-width:600px) {
+    .computer article{
+        margin: 20px 20px;
+        max-height: 20vh;
+        min-height: 20vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;    
+    }
+    .player{
+        margin: auto;
+
+    }
+    .player img{
+        width: 7vh;
+        margin-left: 5px;
+        cursor: pointer;
+    }
+    section.score{
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        font-size: 0.7em;
+        justify-content: space-evenly;
+        align-items: space-between;
+    }
+    section.score h2{
+        margin-top: 7px;
+    }
+    h1{
+        font-size: 1.1em;
+
+        }
+
+}
